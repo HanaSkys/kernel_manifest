@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="duchamp" fetch="https://github.com/mt6897-devs" />
+  <remote  name="duchamp" fetch="https://github.com/HanaSkys" />
 
   <remove-project name="kernel/build" />
   <remove-project name="kernel/common" />
