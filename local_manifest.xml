@@ -19,11 +19,11 @@
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
   </project>
 
-  <project remote="duchamp" name="android_kernel_6.1" path="kernel-6.1" revision="lineage-23.2">
+  <project remote="duchamp" name="android_kernel_6.1" path="kernel-6.1" revision="lts-2026-09">
     <linkfile src="build.config.constants" dest="build.config.constants" />
   </project>
-  <project remote="duchamp" name="android_kernel_device_modules_6.1" path="kernel_device_modules-6.1" revision="lineage-23.2">
+  <project remote="duchamp" name="android_kernel_device_modules_6.1" path="kernel_device_modules-6.1" revision="lts-2026-09">
     <linkfile src="build.config.mtk_kernel_device_modules" dest="build.config" />
   </project>
-  <project remote="duchamp" name="android_vendor_mediatek_kernel_modules" path="vendor/mediatek/kernel_modules" revision="lineage-23.2"/>
+  <project remote="duchamp" name="android_vendor_mediatek_kernel_modules" path="vendor/mediatek/kernel_modules" revision="lts-2026-09"/>
 </manifest>
